@@ -8,8 +8,8 @@ set -euo pipefail
 # Template tomo file containing your pasted content
 template_tomo="tomo_min360.tomo"
 
-# Base path used in your template
-base="/home/treeves/devel/build/sources/STIR/src/SimSET/examples"
+# Base path used in template
+base=""
 
 if [[ ! -f "$template_tomo" ]]; then
   echo "Error: $template_tomo not found. Save your 360 tomo content into this file." >&2
