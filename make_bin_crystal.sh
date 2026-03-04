@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Folder you want in the final paths (matches your example)
-OUTPUT_DIR="/home/treeves/devel/build/sources/STIR/src/SimSET/examples/TOF_Scatter_Simulation"
+# Folder you want in the final paths 
+OUTPUT_DIR=""
 
 # Escape / and & for safe sed replacement
 escape() { printf '%s' "$1" | sed -e 's/[\/&]/\\&/g'; }
